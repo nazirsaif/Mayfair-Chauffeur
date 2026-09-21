@@ -1,6 +1,9 @@
 export const coverageAreas: string[] = [
   'London',
-  'Greater London',
+  'Scotland',
+  'Midlands',
+  'Wales',
+  'Northern Ireland',
   'Surrey',
   'Berkshire',
   'Buckinghamshire',

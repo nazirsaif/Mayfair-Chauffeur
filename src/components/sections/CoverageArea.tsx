@@ -11,7 +11,7 @@ export const CoverageArea: React.FC = () => {
           <div className="w-full lg:w-1/2">
             <SectionHeading 
               title="UK-Wide Coverage" 
-              subtitle="Based in London, traveling everywhere. Our expansive network ensures you have premium chauffeur service wherever you go."
+              subtitle="Based in Midlands Covering All over UK. Our expansive network ensures you have premium chauffeur service wherever you go."
               centered={false}
             />
             
