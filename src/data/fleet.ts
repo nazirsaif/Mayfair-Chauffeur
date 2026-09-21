@@ -9,12 +9,20 @@ export interface Vehicle {
 
 export const fleet: Vehicle[] = [
   {
+    id: 'executive-class',
+    name: 'Executive Class',
+    description: 'Our premium luxury sedans for VIP, corporate travel, and airport transfers.',
+    passengers: 3,
+    luggage: 2,
+    image: '/images/sedan.png'
+  },
+  {
     id: 'executive-v-classes',
     name: 'Executive V Classes',
     description: 'Our premium luxury minivans for VIP, weddings, parties, and family transfers.',
     passengers: 7,
     luggage: 7,
-    image: '/images/sedan.png'
+    image: '/images/executive-v-class.jpeg'
   },
   {
     id: 'executive-sprinter',

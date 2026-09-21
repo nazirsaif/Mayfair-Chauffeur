@@ -66,10 +66,16 @@ const Fleet: React.FC = () => {
                       </div>
                     </div>
                     
-                    <div>
+                    <div className="flex flex-col sm:flex-row gap-4">
                       <Button to={`/book?vehicle=${vehicle.id}`} className="px-8 py-4">
                         Request This Vehicle
                       </Button>
+                      <a 
+                        href={`mailto:info@mayfairexecutivechauffers.com?subject=Quick Booking: ${vehicle.name}`}
+                        className="inline-flex items-center justify-center px-8 py-4 text-sm font-medium tracking-wide transition-colors duration-200 bg-transparent border text-[#f5f5f5] border-neutral-700 hover:bg-neutral-800 hover:text-white rounded-lg"
+                      >
+                        Quick Book (Email)
+                      </a>
                     </div>
                   </div>
                 </div>
