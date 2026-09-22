@@ -22,7 +22,7 @@ export const fleet: Vehicle[] = [
     description: 'Our premium luxury minivans for VIP, weddings, parties, and family transfers.',
     passengers: 7,
     luggage: 7,
-    image: '/images/executive-v-class.jpeg'
+    image: '/images/v-class.png'
   },
   {
     id: 'executive-sprinter',
